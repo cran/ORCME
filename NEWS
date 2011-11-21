@@ -1,0 +1,21 @@
+1.0	o the library was changed significantly to correspond with the book: Modeling Dose-response Microarray Data in Early Drug
+Development Experiments With R0.0-6
+	o fixed rownames (Tine Casneuf)
+0.0-5
+	o check that dose is character of lenght one 
+	  for ExpressionSet,character-method
+	o added simple test for ExpressionSet,character-method
+0.0-4
+	o removed IsoGene dependency
+	o fixed isoClust S4 methods
+0.0-3
+	o added esData (ExpressionSet)
+	o made isoClust an S4 generic
+	o added method ExpressionSet,character
+	o added method matrix,factor
+0.0-2
+	o added simulated data (doseData, geneData)
+	o added example using simulated data
+	o added tests directory with additional examples
+	  for other scenarios
+	o added rudimentary vignette
