@@ -1,7 +1,7 @@
 Package: ORCME
 Type: Package
 Title: Order Restricted Clustering for Microarray Experiments
-Version: 1.2
+Version: 1.2.1
 Date: 2012-09-17
 Author: Adetayo Kasim, Martin Otava, Tobias Verbeke
 Maintainer: Martin Otava <martin.otava@uhasselt.be>
@@ -12,8 +12,9 @@ License: GPL-3
 LazyLoad: yes
 Repository: CRAN
 Repository/R-Forge/Project: orcme
-Repository/R-Forge/Revision: 51
-Repository/R-Forge/DateTimeStamp: 2012-09-17 06:43:22
-Date/Publication: 2012-09-18 08:24:02
-Packaged: 2012-09-17 10:19:47 UTC; rforge
+Repository/R-Forge/Revision: 53
+Repository/R-Forge/DateTimeStamp: 2013-05-14 12:03:46
+Date/Publication: 2013-05-24 15:40:21
+Packaged: 2013-05-14 14:17:54 UTC; rforge
 Depends: R (>= 2.10)
+NeedsCompilation: no
