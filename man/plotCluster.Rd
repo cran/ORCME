@@ -8,7 +8,8 @@
 }
 
 \usage{
-plotCluster(DRdata, doseData, ORCMEoutput, clusterID, zeroMean=FALSE, xlabel, ylabel)
+plotCluster(DRdata, doseData, ORCMEoutput, clusterID, 
+zeroMean=FALSE, xlabel, ylabel, main="")
 }
 
 \arguments{
@@ -20,6 +21,7 @@ plotCluster(DRdata, doseData, ORCMEoutput, clusterID, zeroMean=FALSE, xlabel, yl
   \item{zeroMean}{if TRUE, it centers the gene profiles around the gene-specific means, default is FALSE}
   \item{xlabel}{a title for the x axis}
   \item{ylabel}{a title for the y axis}
+  \item{main}{an overall title for the plot}
 }
 
 
@@ -47,13 +49,14 @@ Cheng, Y. and Church, G. M. (2000). Biclustering of expression data. In:
   data(doseData)
   data(geneData)
 
+  \donttest{
   dirData <- monotoneDirection(geneData = geneData,doseData = doseData)
   incData <- as.data.frame(dirData$incData)
   ORCMEoutput <- ORCME(DRdata=incData,lambda=0.15,phi=2)
   
   plotCluster(DRdata=incData,doseData=doseData, ORCMEoutput=ORCMEoutput,
   clusterID=4,zeroMean=FALSE, xlabel="Dose",ylabel="Gene Expression")
-
+  }
 }
 
 \keyword{cluster}
