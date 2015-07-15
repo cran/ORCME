@@ -1,5 +1,5 @@
-2f35cede6fc39b1cd55d0936c0677984 *DESCRIPTION
-9564191b90b62173b941256f859e1c35 *NAMESPACE
+6a77e74dd747bbbffdf0254605afa15a *DESCRIPTION
+11efbb212d861a08206c50055003f91b *NAMESPACE
 39c6a068a22a029cdcb9021c30da2f4b *NEWS
 ed1e7d36a60790d0ea41a0130454146c *R/ORCME.R
 348480ca445eb9fadd19a528191f4227 *R/monotoneDirection.R
@@ -7,8 +7,8 @@ ed1e7d36a60790d0ea41a0130454146c *R/ORCME.R
 67b262ed149aff878d7cea28e8c4c17c *R/plotIsomeans.R
 8445f5dab9232fa46e2da5ed1174b8cb *R/plotLambda.R
 b5237fd87f20c253d4fd4c57cc0b7fc7 *R/resampleORCME.R
-d2a4318b6fcdf864cd59e4ebae57d199 *data/doseData.rda
-be260ba0e14515f65bd9316a75c6811f *data/geneData.rda
+44550bfaa159fa9f3aa2ff36b98fb5a7 *data/doseData.rda
+12e1b7a5f89256565efa636f6e9cd3be *data/geneData.rda
 8e8452aa14c28c78a2c647e634a2e9e6 *man/ORCME.Rd
 a3e92ca49257b5e0fd8a5aaa9ffc669e *man/doseData.Rd
 1c7f1d4bb74b5f6f8cec626b9498e3ee *man/geneData.Rd
